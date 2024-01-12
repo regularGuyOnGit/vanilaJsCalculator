@@ -7,20 +7,33 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* background-color: rgba(39, 36, 36, 0.611); */
+    background-color: #d7d7d7;
+    background-image: linear-gradient(90deg, #d7d7d7 0%, #353535 74%);
+    
 
+}
+
+h1{
+    text-align: center;
+    font-size: 38px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px;
+ /* text-underline-position:above; */
+ text-decoration: underline;
+ color: whitesmoke;;
 }
 
 .body{
     width: 30%;
     height: 450px;
-    margin : 100px auto;
+    margin : 10px auto;
     border: 2px solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgba(1, 1, 1, 0.426);
+    border-radius: 10%;
 }
 
 .display{
@@ -32,6 +45,8 @@ body{
     flex-direction: row-reverse;
     align-items: end;
     /* flex-wrap: wrap; */
+    border-radius: 10%;
+    margin-bottom: 5px;
 
 }
 .keyboard{
@@ -44,6 +59,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     justify-content:space-around ;
+    border-radius: 5%;
 }
 
 .btn{
@@ -65,9 +81,6 @@ body{
     color : white ;
 }
 
-.ac{
-    width: 160px;
-}
 
 .zero{
 
@@ -82,4 +95,13 @@ body{
     font-size: 20px;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.messRed{
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: 28px;
+    width: 50%;
+    margin: 20px auto;
+text-align: center;
 }
